@@ -17,6 +17,6 @@ const Cards = props => {
 
 // Make sure you include prop types for all of your incoming props
 Cards.propTypes = {
-  cards: PropTypes.arrayOf(PropTypes.object).isRequired
+  cards: PropTypes.arrayOf(PropTypes.object).is
 };
 export default Cards;
