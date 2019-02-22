@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Card from "./Card";
 import uuidv4 from "uuid";
 import PropTypes from "prop-types";
@@ -17,6 +17,6 @@ const Cards = props => {
 
 // Make sure you include prop types for all of your incoming props
 Cards.propTypes = {
-  cards: PropTypes.arrayOf(PropTypes.object).is
+  cards: PropTypes.arrayOf(PropTypes.object)
 };
 export default Cards;
