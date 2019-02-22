@@ -13,9 +13,9 @@ const Tabs = props => {
         {props.tabs.map(tab => (
           <Tab
             key={uuidv4()}
-            selectTabHandler={props.selectTabHandler}
-            selectedTab={props.selectedTab}
             tab={tab}
+            selectedTab={props.selectedTab}
+            selectTabHandler={props.selectTabHandler}
           />
         ))}
       </div>
